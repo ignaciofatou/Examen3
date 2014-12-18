@@ -269,6 +269,7 @@ public class VentanaExamen3 extends javax.swing.JFrame {
             
             //Mostramos Mensaje en en Log
             LOGGER.warning("Error, Debe indicar una cantidad numérica");
+            ex.printStackTrace();
             
             //Mensaje de Alerta
             JOptionPane.showMessageDialog(
@@ -284,6 +285,7 @@ public class VentanaExamen3 extends javax.swing.JFrame {
             
             //Mostramos Mensaje en en Log
             LOGGER.warning("Error, Error Desconocido");
+            ex.printStackTrace();
 
             //Mensaje de Alerta
             JOptionPane.showMessageDialog(
